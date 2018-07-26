@@ -619,24 +619,6 @@ int16_t AcX,AcY,AcZ,Tmp,GyX,GyY,GyZ;                              //       //   
                                                                                                                     //                                                                                                                                                                                                                               // From MeGyro.h       
                                                                                                                     //                                                                                                                                                                                                                             // From MeGyro.h              
                                                                                                                     //                                                 
-/**                                                                                                                 //                                                   
- * \par Function                                                                                                    //                                            
- *   deviceCalibration                                                                                              //
- * \par Description                                                                                                 //                                    
- *   Calibration function for the MeGyro.                                                                           //                                                     
- * \param[in]                                                                                                       //                                                              
- *   None                                                                                                           //                                            
- * \par Output                                                                                                      //                                                   
- *   None                                                                                                           //                                                                  
- * \return                                                                                                          //                                                         
- *   None.                                                                                                          //                                        
- * \par Others                                                                                                      //                                                                
- *   The calibration function will be called in initial process, please keep the                                    //                                     
- *   device in a rest status at that time.                                                                          //                                         
- */                                                                                                                 //                     
-  void deviceCalibration(void);                                                                                     //             
-                                                                                                                    //                                                                                                                                                                                                                              // From MeGyro.h        
-                                                                                                                    //                                                                
 /**                                                                                                                 //                                                                              
  * \par Function                                                                                                    //                                                      
  *   writeReg                                                                                                       //                                                            
